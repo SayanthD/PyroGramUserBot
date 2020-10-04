@@ -21,7 +21,7 @@ psycopg2-binary
 sqlalchemy
 
 # leech tools
-youtube-dl
+youtube-dlc
 aria2p
 
 # download remote files

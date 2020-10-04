@@ -40,7 +40,7 @@ async def proc_ess_image_aqon(image_url: str, output_dir: str) -> str:
 
 async def extract_youtube_dl_formats(url, user_working_dir):
     command_to_exec = [
-        "youtube-dl",
+        "youtube-dlc",
         "--no-warnings",
         "--youtube-skip-dash-manifest",
         "-j",
