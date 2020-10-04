@@ -45,6 +45,7 @@ async def down_load_media(client, message):
             caption=text_message,
             reply_markup=reply_markup
         )
+        os.remove(thumb_image)
         await status_message.delete()
 
     else:
